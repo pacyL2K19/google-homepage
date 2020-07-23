@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <link href="index.css" type="text/css" rel="stylsheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/fontawesome.min.css" />
     </head>
     <style>
         /*
@@ -80,9 +81,9 @@ body {
     margin-right: 25%;
 }
 
-form {
+/* form {
     
-}
+} */
 
 #logo {
     width: 40%;
@@ -91,11 +92,26 @@ form {
 
 #search-zone {
     width: 100%;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
     height: 40px;
     border-radius: 22.5px;
     border-width: 0.2px;
+}
+.btn {
+    width: 80%;
+    margin-left: 23%;
+}
+
+.btn button {
+    margin-right: 80px;
+    padding : 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.langages {
+    text-align: center;
 }
     </style>
     <body>
@@ -115,12 +131,16 @@ form {
             <img id="logo" alt="Google logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             <form method="post" action="#">
                 <label for="search-zone">
+                    <i class="icon-1"><img src="img/search.png"></i>
                     <input id="search-zone" name="search-zone" type="text">
                 </label> <br>
-                <button type="submit">Recherche Google</button>
-                <button type="reset">J'ai de la chance</button>
+                <div class="btn">
+                    <button type="submit">Recherche Google</button>
+                    <button type="reset">J'ai de la chance</button>
+                </div>
+                
             </form>
-            <div>
+            <div class="langages">
                     <p>Google disponible en : <a href="#">English</a> <a href="#">Luganda</a> <a href="#">Kiswahili</a> <a href="#">Ikinyarwanda Luo Runyakitara</a></p>
             </div>
         </div>
