@@ -1,2 +1,2 @@
 # google-homepage
-A simple google web page for html and css training
+A single google web page for html and css training
